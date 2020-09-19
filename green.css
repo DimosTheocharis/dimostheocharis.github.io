@@ -1,0 +1,36 @@
+:root{
+    --mainColor: #606B56;
+    --secondaryColor: #515a48;
+
+    --borderColor: #161914;
+
+    --mainText: black;
+    --secondaryText:#eeeeee;
+
+    --themeDotBorder: #FFF;
+
+    --previewBg: rgb(81, 90, 72, 0.8);
+
+    --previewShadow: #2a2f25;
+
+    --buttonColor: #669966;
+
+    --seperateColorful: rgb(0,175,0);
+
+    --horizontalThickLine: #FF6F00;
+
+    --containingWrapperColor: #7CBF71;
+
+    --aLinksColor: #fff;
+
+    --hiColor: rgb(200,200,200);
+
+    --insiderBall: rgb(200,200,200);
+
+    --projectColor: var(--mainColor);
+
+    --servicesColor: rgb(80,80,80);
+
+    --aboutTextColor:black;
+
+}

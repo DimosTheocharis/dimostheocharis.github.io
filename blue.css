@@ -1,0 +1,26 @@
+:root{
+    --mainColor: #15202B;
+    --secondaryColor: #192734;
+
+    --borderColor: #164D56;
+
+    --mainText: black;
+    --secondaryText:#eeeeee;
+
+    --themeDotBorder: #FFF;
+
+    --previewBg: rgb(25, 39, 52, 0.8);
+
+    --previewShadow: #111921;
+
+    --buttonColor: #17a2b8;
+
+    --seperateColorful: rgb(0,0,175);
+
+    --horizontalThickLine: #FF6F00;
+
+    --aboutTextColor: black;
+
+    --containingWrapperColor: #003366;
+
+    --projectColor: var(--mainColor);
