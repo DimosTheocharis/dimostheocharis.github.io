@@ -91,11 +91,11 @@ p, li, span, label, input, textarea {
 b {color: black;}
 
 .navbar-section {
-    width: 71%;
+    width: 70%;
     position: fixed;
     top: 0;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
     display: grid;
     grid-template-columns: 50% 1fr 1fr 1fr;
     justify-items: center;
@@ -164,7 +164,7 @@ b {color: black;}
 
 #Home-Seperate {
     display: grid;
-    grid-template-columns: 300px 355px 300px;
+    grid-template-columns: 25% 30% 25%;
     margin: 80px auto 0 auto;
     align-items: center;
     justify-content: center;
@@ -190,18 +190,18 @@ b {color: black;}
 
 .seperate_black_message {
     color: black;
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: 900;
     font-family: sans-serif;
-    letter-spacing: -5px;
+    letter-spacing: -0.3vw;
 }
 
 .seperate_colorful_message {
     color: var(--seperateColorful);
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: 900;
     font-family: sans-serif;
-    letter-spacing: -5px;
+    letter-spacing: -0.3vw;
 }
 
 
@@ -348,7 +348,7 @@ p.Summary {
 
 #About-Seperate{
     display: grid;
-    grid-template-columns: 300px 390px 300px;
+    grid-template-columns: 25% 32.8% 25%;
     margin: 60px auto 0 auto;
     align-items: center;
     justify-content: center;
@@ -424,7 +424,7 @@ p.More_About {
 
 #Project-Seperate {
     display: grid;
-    grid-template-columns: 300px 450px 300px;
+    grid-template-columns: 25% 38.5% 25%;
     margin: 60px auto 0 auto;
     align-items: center;
     justify-content: center;
@@ -513,5 +513,23 @@ p.More_About {
 
     .right-column {
         justify-content: center;
+    }
+
+    .about-wrapper {
+        grid-template-areas: "about"
+                             "knowledge"
+                             "follow";
+        
+        grid-template-columns: 1fr;
+    }
+
+    .photo-quote-wrapper {
+        grid-template-areas: "left-column"
+                             "right-column";
+        grid-template-columns: 1fr;
+    }
+
+    #copyright {
+        top: 10px;
     }
 }
