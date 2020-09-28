@@ -100,7 +100,7 @@ b {color: black;}
     grid-template-columns: 50% 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    min-width: 400px;
+    min-width: 300px;
     border-radius: 10px;
     background-color: black;
     z-index: 10;
@@ -532,14 +532,23 @@ p.More_About {
     #copyright {
         top: 10px;
     }
+
     
-    .navbar-section {
-        margin: 0;
-        width: 85%;
-        padding-right: 5px;
-    }
 
     #IdMore {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar-section {
+        margin: 0;
+        width: 75%;
+        padding-right: 5px;
+        grid-template-columns: 40% 1fr 1fr 1fr;
+    }
+
+    .Nav-links {
+        font-size: 3vw;
     }
 }
