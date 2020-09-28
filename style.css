@@ -532,4 +532,14 @@ p.More_About {
     #copyright {
         top: 10px;
     }
+    
+    .navbar-section {
+        margin: 0;
+        width: 85%;
+        padding-right: 5px;
+    }
+
+    #IdMore {
+        text-align: center;
+    }
 }
