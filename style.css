@@ -541,8 +541,7 @@ p.More_About {
 
 @media screen and (max-width: 500px) {
     .navbar-section {
-        margin: 0;
-        padding-right: 5px;
+        margin-left: 5%;
         grid-template-columns: 40% 1fr 1fr 1fr;
     }
 
