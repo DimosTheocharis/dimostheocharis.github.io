@@ -24,3 +24,14 @@
     --containingWrapperColor: #003366;
 
     --projectColor: var(--mainColor);
+
+}
+
+@media screen and (max-width: 500px) {
+    p.project-info {color: rgb(100,100,100);}
+    :root {
+        --aboutTextColor: rgb(100,100,100);
+    }
+
+    p.Summary {color: rgb(100,100,100);}
+}

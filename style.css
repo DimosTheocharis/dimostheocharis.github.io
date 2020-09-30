@@ -250,12 +250,15 @@ b {color: black;}
     padding-bottom: 5px;
     position: relative;
     top: 20x;
+    font-size: 30px;
+    color:var(--hiColor);
 }
+
+
 
 .horizontal-thick-line {
     align-self: start;
     grid-area: hashtag;
-    border: 1px solid blue;
     width: 220%;
     height: 40px;
     background-color: var(--horizontalThickLine);
@@ -332,7 +335,7 @@ p.Summary {
     color: black;;
     text-align: center;
     font-style: italic;
-    margin-top: 50px;;
+    margin-top: 50px;
     padding: 0;
 }
 
@@ -523,12 +526,6 @@ p.More_About {
         grid-template-columns: 1fr;
     }
 
-    .photo-quote-wrapper {
-        grid-template-areas: "left-column"
-                             "right-column";
-        grid-template-columns: 1fr;
-    }
-
     #copyright {
         top: 10px;
     }
@@ -549,7 +546,78 @@ p.More_About {
         grid-template-columns: 40% 1fr 1fr 1fr;
     }
 
+    .main-container {
+        width: 100%;
+    }
+
+
     .Nav-links {
         font-size: 3vw;
     }
+
+    .left-column {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 80%;
+        grid-template-areas: 'photo title'
+                             "hashtag hashtag";
+        justify-content: center; 
+        align-content: center;
+    }
+
+    #prof-image {
+        transform: scale(1,1);
+        position: relative;
+        left: 10px;
+        top: 80px;
+    }
+
+    .horizontal-thick-line {
+        justify-self: start;
+        width: 100%;
+        height: 31px;
+        position: relative;
+        text-align: right;
+        left: 0px;
+    }
+
+    #name-p {
+        font-size: 20px;
+        position: relative;
+        right: 25px;
+    }
+
+    .current-state {font-size:11px; position:relative;left:1px;top:1px;}
+
+
+    .right-column {
+        padding: 0px;
+        width: 80%;
+    }
+
+    .dark-grey-box {
+        width: 225px;
+        height: 125px;
+        position: relative;
+        right: 5%;
+        bottom: 35%;
+    }
+
+    .insider_box {
+        width: 225px;
+        height: 125px;
+        top: 25px;
+        left: 25px;
+    }
+
+    #What_i_do {font-size:18px; top:10px;}
+
+    .Summary {font-size:2px;margin-top:0px;
+    position:relative; bottom:30%;}
+
+    ul.Learning li, ul.Skills li {
+        font-size: 14px;
+    }
+
+
 }
