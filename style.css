@@ -642,6 +642,7 @@ p.More_About {
 
     .buttons_changing_project a {
         width: 15%;
+        min-width: 75px;
     }
 
     .Content_Of_Project_Images {
