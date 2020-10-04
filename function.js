@@ -14,3 +14,29 @@ blue_button.addEventListener("click", () => {
 green_button.addEventListener("click", () => {
     extra_css.href = "green.css";
 })
+
+/* ------------------------------------------------------------------------------------------------------------*/
+try {
+    var title = document.getElementsByClassName('Content_Of_Project_Title')[0];
+    var previous = document.getElementsByClassName('previous')[0];
+    var next = document.getElementsByClassName("next")[0]
+
+    if (title.innerHTML === 'Space Invaders') {
+        next.href = "./Drawnario.html";
+        previous.href = './Hangman.html';
+    } else if (title.innerHTML === 'Drawnar.io') {
+        next.href = './Hangman.html';
+        previous.href = "./SpaceInvaders.html";
+    } else if (title.innerHTML ==="Hangman") {
+        next.href = "./SpaceInvaders.html";
+        previous.href = "./Drawnario.html";
+    }
+
+} catch(error) {
+    var x = error;
+}
+
+try {
+    var project_images = document.getElementsByClassName("Content_Of_Project_Images").childNodes;
+    console.log(project_images);
+} catch(error) {console.log(error);}

@@ -35,3 +35,7 @@
 
     p.Summary {color: rgb(100,100,100);}
 }
+
+.Content_Of_Project_Info p, #Operations-list p {
+    color: rgb(200,200,200);
+}

@@ -32,3 +32,7 @@
     --servicesColor: rgb(80,80,80);
 
 }
+
+.Content_Of_Project_Info p, #Operations-list p {
+    color: rgb(200,200,200);
+}
