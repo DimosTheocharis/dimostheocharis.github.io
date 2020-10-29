@@ -450,7 +450,7 @@ p.More_About {
 }
 
 .project-item img {
-    width: 100%;
+    width: 96%;
     height: 300px;
 }
 
@@ -642,8 +642,7 @@ p.More_About {
 
     .buttons_changing_project a {
         width: 15%;
-        min-width: 75px;
-    }
+        min-width: 75px; }
 
     .Content_Of_Project_Images {
         flex-direction: row;
@@ -653,6 +652,7 @@ p.More_About {
         width: 25%;
         height: 10%;
     }
+
 }
 
 @media screen and (max-width: 500px) {
