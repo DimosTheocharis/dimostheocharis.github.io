@@ -50,6 +50,6 @@ play_button.addEventListener('click', ()=> {
 })
 
 game_image.addEventListener('click', ()=> {
-    window.location = 'https://dimostheocharis.github.io/Snake.io/StartingScreen.html';
+    window.location = 'https://www.youtube.com/';
     console.log('yeap');
 })
