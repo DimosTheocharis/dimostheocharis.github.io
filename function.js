@@ -45,9 +45,11 @@ try {
 var play_button = document.getElementById('number3');
 var game_image = document.getElementById('game-image');
 play_button.addEventListener('click', ()=> {
-    window.location = 'https://dimostheocharis.github.io/Snake.io/StartingScreen.html';
+    window.location = 'https://www.youtube.com/';
+    console.log('yeap');
 })
 
 game_image.addEventListener('click', ()=> {
     window.location = 'https://dimostheocharis.github.io/Snake.io/StartingScreen.html';
+    console.log('yeap');
 })
