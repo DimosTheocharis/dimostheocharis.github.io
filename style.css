@@ -650,7 +650,7 @@ p.More_About {
 
     .Content_Of_Project_Images img { 
         width: 25%;
-        height: 10%;
+        height: 15vh;
     }
 
 }
