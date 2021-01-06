@@ -40,14 +40,3 @@ try {
     var project_images = document.getElementsByClassName("Content_Of_Project_Images").childNodes;
     console.log(project_images);
 } catch(error) {console.log(error);}
-
-
-var play_button = document.getElementById('number3');
-var game_image = document.getElementById('game-image');
-play_button.addEventListener('click', ()=> {
-    window.location = 'https://dimostheocharis.github.io/Snake.io/StartingScreen.html';
-})
-
-game_image.addEventListener('click', ()=> {
-    window.location = 'https://dimostheocharis.github.io/Snake.io/StartingScreen.html';
-})

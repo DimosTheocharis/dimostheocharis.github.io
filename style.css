@@ -447,6 +447,7 @@ p.More_About {
     background-color: var(--projectColor);
     margin: 0 10px;
     border: 1px solid black;
+    position: relative;
 }
 
 .project-item img {
@@ -470,6 +471,7 @@ p.More_About {
     display: block;
     padding-left: 10px;
 }
+
 
 #footer {
     background-color: #232324;
@@ -759,4 +761,8 @@ p.More_About {
     #Operations-list li {font-size: 18px;}
     .lines_total{font-size:22px;}
 
+}
+
+@Media screen and (min-width:800px){
+    .Project-link {position:absolute;bottom:0;left:0;} 
 }
