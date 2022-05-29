@@ -764,5 +764,15 @@ p.More_About {
 }
 
 @Media screen and (min-width:800px){
-    .Project-link {position:absolute;bottom:0;left:0;} 
+    .links-container {
+        position:absolute;
+        bottom:0;
+        left:0;
+        display: flex;
+        align-items: center;
+    }
+
+    .Project-link {
+        margin-right: 20px;
+    }
 }
